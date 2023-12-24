@@ -14,8 +14,8 @@
 
 get_header();
 ?>
-	<div id="primary" class="content-area d-flex">
-		<main id="main" class="site-main col-md-8">
+	<div id="primary" class="content-area d-flex flex-wrap">
+		<main id="main" class="site-main col-md-8 mw-100">
 
 			<?php
 			if ( have_posts() ) :

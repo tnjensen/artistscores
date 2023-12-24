@@ -24,7 +24,8 @@ function js() {
 
 function browser() {
     browserSync.init({
-        proxy: 'domain.local',
+        proxy: 'http://localhost/uscores-btstrap/wordpress',
+        port: 80,
         files: [
             './**/*.php'
         ]
